@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <!-- <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet"> -->
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class = "home">
+                
+                <div class = "home-text">
+                    <h3>HOME</h3>
+                </div>
+                
+                <div class = "home-score">
+                    <p id="home-el">0</p>
+                </div>
+                
+                <div class = "home-buttons">
+                    <button id="button" onclick="home_one()">+1</button>
+                    <button id="button" onclick="home_two()">+2</button>
+                    <button id="button" onclick="home_three()">+3</button>
+                </div>
+                
+            </div>
+            
+            <div class = "home", id="class">
+                <div class = "home-text", id="class-text">
+                    <h3>GUEST</h3>
+                </div>
+                <div class = "home-score", id="class-score">
+                    <p id="guest-el">0</p>
+                </div>
+                <div class = "home-buttons", id="class-buttons">
+                    <button id="button" onclick="guest_one()">+1</button>
+                    <button id="button" onclick="guest_two()">+2</button>
+                    <button id="button" onclick="guest_three()">+3</button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <button id="button-reset" onclick="reset_scores()">RESET</button>
+        <script src="index.js"></script>
+    </body>
+</html>
