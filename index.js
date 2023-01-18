@@ -37,6 +37,8 @@ function guest_three(){
 }
 
 function reset_scores(){
-    homeEl.textContent = 0;
-    guestEl.textContent = 0;
+    home_score = 0
+    guest_score = 0
+    homeEl.textContent = home_score
+    guestEl.textContent = guest_score
 }
